@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+     /*background: linear-gradient(45deg,#002651,#006995,#00B2BE,#70FACB); */
+     background: linear-gradient(45deg,#002651,#006995,#00B2BE,#70FACB); 
+     animation: colors 15s ease infinite ;
+     background-size: 300% 100%;
+    }
+@keyframes colors{
+    0%{
+  background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+  
+    }
+    100%{
+      background-position: 0% 50%;
+  
+    }
+  }
+input{
+    padding: 5px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    background: none;
+    border-bottom: solid white 3px ;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+button{
+    background-color: dodgerblue;
+    border:none;
+    padding: 15px;
+    border-radius: 6%;
+    width: 100%;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.formlogin a{
+    color: #a4b49a;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+.formlogin a:hover{
+color: white;
+}
+
+.formlogin {
+  width: 300px; /* largura específica */
+  background-color: rgba(0,0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 3%;
+  border-radius: 5%;
+  color:white;
+}
+
+#mensagem{
+  width: 80%; /* largura menor */
+  box-sizing: border-box;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  
+
+}
+
+
+
+
